@@ -7,23 +7,18 @@
 </head>
 
 <body>
-<div style="background-color:lightblue" class="formbox">
-<h1>Multiplication quiz</h1>
-
-What is: <input type="text" name="question" id="equation"><br>
-Your answer: <input type="text" name="answer" id="input"><br>
-
-<input type="submit" value="Check my answer" onclick="userInput(equation, solution);" style="background-color:purple">
-<script language="javascript" type="text/javascript" src="multiplication.js"></script>
-
-
+<div id="formbox">
+	<h1>Multiplication Quiz</h1>
+	<div class="formline">
+		What is: <input type="text" name="question" id="equation">
+	</div>
+	<div class="formline">
+		Your answer: <input type="text" name="answer" id="input">
+	</div>
+	<div class="formline">
+		<input type="submit" value="Check my answer" onclick="userInput(equation, solution);" id="button" >
+	</div>
 </div>
-
-
-
-
-
-
-
+<script language="javascript" type="text/javascript" src="multiplication.js"></script>
 </body>
 </html>
