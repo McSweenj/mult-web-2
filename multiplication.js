@@ -70,6 +70,6 @@ function endQuiz(wrongAnswers){
 var question = 0;
 var stop=false; again=true; wrongAnswers=0; bottomRange=0; topRange=0;
 var again=false; solution=0;x=0;y=0;equation=null;wrong=0;
-var questions = setup();
+//var questions = setup();
 
-main();
+//main();
